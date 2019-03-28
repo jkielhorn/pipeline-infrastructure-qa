@@ -15,7 +15,7 @@ spec:
         app: pipeline
     spec:
       containers:
-      - image: gcr.io/jk-example-project/pipeline:2.0.2
+      - image: gcr.io/jk-example-project/pipeline:3.0.0
         name: pipeline
         ports:
         - containerPort: 80
